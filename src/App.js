@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import React, { useState } from "react";
 import StudentForm from "./components/StudentForm";
 import StudentList from "./components/StudentList";
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Student Information System</h1>
-      <h5>Developed By: StudentID || Student Name || DevOps</h5>
+      <h5>Developed By: 101429112 || NHU LY || DevOps</h5>
       <StudentForm addStudent={addStudent} />
       <StudentList students={students} />
     </div>
